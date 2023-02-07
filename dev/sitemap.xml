@@ -22,6 +22,9 @@
     <loc>https://gt.rstudio.com/dev/articles/creating-summary-lines.html</loc>
   </url>
   <url>
+    <loc>https://gt.rstudio.com/dev/articles/gt-clinicaltables.html</loc>
+  </url>
+  <url>
     <loc>https://gt.rstudio.com/dev/articles/gt-datasets.html</loc>
   </url>
   <url>
@@ -121,6 +124,9 @@
     <loc>https://gt.rstudio.com/dev/reference/cols_label.html</loc>
   </url>
   <url>
+    <loc>https://gt.rstudio.com/dev/reference/cols_label_with.html</loc>
+  </url>
+  <url>
     <loc>https://gt.rstudio.com/dev/reference/cols_merge.html</loc>
   </url>
   <url>
@@ -175,6 +181,9 @@
     <loc>https://gt.rstudio.com/dev/reference/fmt.html</loc>
   </url>
   <url>
+    <loc>https://gt.rstudio.com/dev/reference/fmt_auto.html</loc>
+  </url>
+  <url>
     <loc>https://gt.rstudio.com/dev/reference/fmt_bytes.html</loc>
   </url>
   <url>
@@ -194,6 +203,9 @@
   </url>
   <url>
     <loc>https://gt.rstudio.com/dev/reference/fmt_fraction.html</loc>
+  </url>
+  <url>
+    <loc>https://gt.rstudio.com/dev/reference/fmt_index.html</loc>
   </url>
   <url>
     <loc>https://gt.rstudio.com/dev/reference/fmt_integer.html</loc>
@@ -223,7 +235,13 @@
     <loc>https://gt.rstudio.com/dev/reference/fmt_scientific.html</loc>
   </url>
   <url>
+    <loc>https://gt.rstudio.com/dev/reference/fmt_spelled_num.html</loc>
+  </url>
+  <url>
     <loc>https://gt.rstudio.com/dev/reference/fmt_time.html</loc>
+  </url>
+  <url>
+    <loc>https://gt.rstudio.com/dev/reference/fmt_url.html</loc>
   </url>
   <url>
     <loc>https://gt.rstudio.com/dev/reference/ggplot_image.html</loc>
@@ -242,6 +260,12 @@
   </url>
   <url>
     <loc>https://gt.rstudio.com/dev/reference/gt.html</loc>
+  </url>
+  <url>
+    <loc>https://gt.rstudio.com/dev/reference/gt_addv.html</loc>
+  </url>
+  <url>
+    <loc>https://gt.rstudio.com/dev/reference/gt_adsl.html</loc>
   </url>
   <url>
     <loc>https://gt.rstudio.com/dev/reference/gt_latex_dependencies.html</loc>
@@ -302,6 +326,9 @@
   </url>
   <url>
     <loc>https://gt.rstudio.com/dev/reference/opt_horizontal_padding.html</loc>
+  </url>
+  <url>
+    <loc>https://gt.rstudio.com/dev/reference/opt_interactive.html</loc>
   </url>
   <url>
     <loc>https://gt.rstudio.com/dev/reference/opt_row_striping.html</loc>
@@ -442,6 +469,9 @@
     <loc>https://gt.rstudio.com/dev/reference/text_transform.html</loc>
   </url>
   <url>
+    <loc>https://gt.rstudio.com/dev/reference/towny.html</loc>
+  </url>
+  <url>
     <loc>https://gt.rstudio.com/dev/reference/vec_fmt_bytes.html</loc>
   </url>
   <url>
@@ -463,6 +493,9 @@
     <loc>https://gt.rstudio.com/dev/reference/vec_fmt_fraction.html</loc>
   </url>
   <url>
+    <loc>https://gt.rstudio.com/dev/reference/vec_fmt_index.html</loc>
+  </url>
+  <url>
     <loc>https://gt.rstudio.com/dev/reference/vec_fmt_integer.html</loc>
   </url>
   <url>
@@ -482,6 +515,9 @@
   </url>
   <url>
     <loc>https://gt.rstudio.com/dev/reference/vec_fmt_scientific.html</loc>
+  </url>
+  <url>
+    <loc>https://gt.rstudio.com/dev/reference/vec_fmt_spelled_num.html</loc>
   </url>
   <url>
     <loc>https://gt.rstudio.com/dev/reference/vec_fmt_time.html</loc>
