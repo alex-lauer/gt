@@ -11,7 +11,7 @@ shows a PD was related to COVID-19 or not.
 Although the data was intentionally created to mimic a typical clinical
 trial dataset following the CDISC format, it might not strictly comply
 with CDISC ADaM rules. The intent is to showcase the workflow for clinical
-table creation rather than creating a fully CDISC-compliant ADaM dataset.'><title>An ADDV-flavored clinical trial toy dataset — gt_addv • gt</title><!-- favicons --><link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png"><link rel="apple-touch-icon" type="image/png" sizes="180x180" href="../apple-touch-icon.png"><link rel="apple-touch-icon" type="image/png" sizes="120x120" href="../apple-touch-icon-120x120.png"><link rel="apple-touch-icon" type="image/png" sizes="76x76" href="../apple-touch-icon-76x76.png"><link rel="apple-touch-icon" type="image/png" sizes="60x60" href="../apple-touch-icon-60x60.png"><script src="../deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link href="../deps/bootstrap-5.2.2/bootstrap.min.css" rel="stylesheet"><script src="../deps/bootstrap-5.2.2/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous"><!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="../pkgdown.js"></script><meta property="og:title" content="An ADDV-flavored clinical trial toy dataset — gt_addv"><meta property="og:description" content='This tibble contains artificial protocol deviation data for 180 subjects
+table creation rather than creating a fully CDISC-compliant ADaM dataset.'><title>An ADDV-flavored clinical trial toy dataset — rx_addv • gt</title><!-- favicons --><link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png"><link rel="apple-touch-icon" type="image/png" sizes="180x180" href="../apple-touch-icon.png"><link rel="apple-touch-icon" type="image/png" sizes="120x120" href="../apple-touch-icon-120x120.png"><link rel="apple-touch-icon" type="image/png" sizes="76x76" href="../apple-touch-icon-76x76.png"><link rel="apple-touch-icon" type="image/png" sizes="60x60" href="../apple-touch-icon-60x60.png"><script src="../deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link href="../deps/bootstrap-5.2.2/bootstrap.min.css" rel="stylesheet"><script src="../deps/bootstrap-5.2.2/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous"><!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="../pkgdown.js"></script><meta property="og:title" content="An ADDV-flavored clinical trial toy dataset — rx_addv"><meta property="og:description" content='This tibble contains artificial protocol deviation data for 180 subjects
 in the Intent-to-Treat (ITT) population of the GT01 study. The dataset
 contains the usual parameters (PARAM, PARAMCD) for an addv. There is
 summary parameter (PARCAT1 == "OVERALL") for each subject of the GT01
@@ -79,7 +79,7 @@ table creation rather than creating a fully CDISC-compliant ADaM dataset.'><meta
   <main id="main" class="col-md-9"><div class="page-header">
       <img src="../logo.svg" class="logo" alt=""><h1>An ADDV-flavored clinical trial toy dataset</h1>
       <small class="dont-index">Source: <a href="https://github.com/rstudio/gt/blob/HEAD/R/datasets.R" class="external-link"><code>R/datasets.R</code></a></small>
-      <div class="d-none name"><code>gt_addv.Rd</code></div>
+      <div class="d-none name"><code>rx_addv.Rd</code></div>
     </div>
 
     <div class="ref-description section level2">
@@ -100,7 +100,7 @@ table creation rather than creating a fully CDISC-compliant ADaM dataset.</p>
 
     <div class="section level2">
     <h2 id="ref-usage">Usage<a class="anchor" aria-label="anchor" href="#ref-usage"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="va">gt_addv</span></span></code></pre></div>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="va">rx_addv</span></span></code></pre></div>
     </div>
 
     <div class="section level2">
@@ -173,22 +173,22 @@ indicating whether PD is related to COVID-19 or not.</p></dd>
     
 
 
-<p>Here is the <code>gt_addv</code>.</p>
-<p></p><div class="sourceCode r"><pre><code><span><span class="va">gt_addv</span></span>
-<span><span class="co">#&gt; # A tibble: 298 x 20</span></span>
+<p>Here is the <code>rx_addv</code>.</p>
+<p></p><div class="sourceCode r"><pre><code><span><span class="va">rx_addv</span></span>
+<span><span class="co">#&gt; # A tibble: 291 x 20</span></span>
 <span><span class="co">#&gt;    STUDYID STUDYIDN USUBJID TRTA    TRTAN ITTFL   AGE AAGEGR1 SEX   ETHNIC BLBMI</span></span>
 <span><span class="co">#&gt;    &lt;chr&gt;   &lt;chr&gt;    &lt;chr&gt;   &lt;fct&gt;   &lt;dbl&gt; &lt;chr&gt; &lt;int&gt; &lt;fct&gt;   &lt;fct&gt; &lt;fct&gt;  &lt;dbl&gt;</span></span>
 <span><span class="co">#&gt;  1 GT01    4001     GT1001  Placebo     1 Y        41 &gt;=40    Male  Not H~  33.4</span></span>
-<span><span class="co">#&gt;  2 GT01    4001     GT1001  Placebo     1 Y        41 &gt;=40    Male  Not H~  33.4</span></span>
+<span><span class="co">#&gt;  2 GT01    4001     GT1002  Placebo     1 Y        39 &lt;40     Fema~ Not H~  30.5</span></span>
 <span><span class="co">#&gt;  3 GT01    4001     GT1002  Placebo     1 Y        39 &lt;40     Fema~ Not H~  30.5</span></span>
 <span><span class="co">#&gt;  4 GT01    4001     GT1003  Placebo     1 Y        38 &lt;40     Male  Not H~  22.9</span></span>
-<span><span class="co">#&gt;  5 GT01    4001     GT1004  Placebo     1 Y        45 &gt;=40    Male  Not H~  23.9</span></span>
-<span><span class="co">#&gt;  6 GT01    4001     GT1004  Placebo     1 Y        45 &gt;=40    Male  Not H~  23.9</span></span>
-<span><span class="co">#&gt;  7 GT01    4001     GT1005  Placebo     1 Y        35 &lt;40     Fema~ Hispa~  29.1</span></span>
-<span><span class="co">#&gt;  8 GT01    4001     GT1005  Placebo     1 Y        35 &lt;40     Fema~ Hispa~  29.1</span></span>
+<span><span class="co">#&gt;  5 GT01    4001     GT1003  Placebo     1 Y        38 &lt;40     Male  Not H~  22.9</span></span>
+<span><span class="co">#&gt;  6 GT01    4001     GT1003  Placebo     1 Y        38 &lt;40     Male  Not H~  22.9</span></span>
+<span><span class="co">#&gt;  7 GT01    4001     GT1004  Placebo     1 Y        45 &gt;=40    Male  Not H~  23.9</span></span>
+<span><span class="co">#&gt;  8 GT01    4001     GT1004  Placebo     1 Y        45 &gt;=40    Male  Not H~  23.9</span></span>
 <span><span class="co">#&gt;  9 GT01    4001     GT1005  Placebo     1 Y        35 &lt;40     Fema~ Hispa~  29.1</span></span>
-<span><span class="co">#&gt; 10 GT01    4001     GT1006  Placebo     1 Y        42 &gt;=40    Fema~ Not H~  28.8</span></span>
-<span><span class="co">#&gt; # ... with 288 more rows, and 9 more variables: DVTERM &lt;chr&gt;, PARAMCD &lt;fct&gt;,</span></span>
+<span><span class="co">#&gt; 10 GT01    4001     GT1005  Placebo     1 Y        35 &lt;40     Fema~ Hispa~  29.1</span></span>
+<span><span class="co">#&gt; # ... with 281 more rows, and 9 more variables: DVTERM &lt;chr&gt;, PARAMCD &lt;fct&gt;,</span></span>
 <span><span class="co">#&gt; #   PARAM &lt;fct&gt;, PARCAT1 &lt;chr&gt;, DVCAT &lt;chr&gt;, ACAT1 &lt;chr&gt;, AVAL &lt;dbl&gt;,</span></span>
 <span><span class="co">#&gt; #   CRIT1 &lt;chr&gt;, CRIT1FL &lt;chr&gt;</span></span></code></pre><p></p></div>
     </div>
@@ -203,9 +203,9 @@ indicating whether PD is related to COVID-19 or not.</p></dd>
     <div class="dont-index"><p>Other datasets: 
 <code><a href="countrypops.html">countrypops</a></code>,
 <code><a href="exibble.html">exibble</a></code>,
-<code><a href="gt_adsl.html">gt_adsl</a></code>,
 <code><a href="gtcars.html">gtcars</a></code>,
 <code><a href="pizzaplace.html">pizzaplace</a></code>,
+<code><a href="rx_adsl.html">rx_adsl</a></code>,
 <code><a href="sp500.html">sp500</a></code>,
 <code><a href="sza.html">sza</a></code>,
 <code><a href="towny.html">towny</a></code></p></div>
